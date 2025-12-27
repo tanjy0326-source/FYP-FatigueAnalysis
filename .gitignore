@@ -1,21 +1,11 @@
-
----
-
-### 🧹 Example `.gitignore`
-```gitignore
-# Ignore OS and notebook cache
-__pycache__/
-.ipynb_checkpoints/
-.DS_Store
-
-# Ignore large video/data files
+# Ignore video and large binary files
 *.mp4
 *.mov
 *.avi
-*.csv
+*.mkv
 *.zip
+*.rar
+*.7z
+__pycache__/
+.ipynb_checkpoints/
 
-# Ignore environment files
-env/
-venv/
-*.log
